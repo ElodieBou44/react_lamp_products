@@ -1,0 +1,33 @@
+/* Inspiration du CSS de Mr.Sanches avec modifications */
+
+.product {
+    background: #393536;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #E9CBB1;
+    width: 70%; 
+}
+
+.product.available {
+border-left: 12px solid #f8f9fa;
+}
+
+.product:hover{
+    background: #645d5f; 
+}
+
+.product h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product p{
+    text-align: left;
+}
+
+.icon-btn-div{
+    margin: 0 20px;
+}

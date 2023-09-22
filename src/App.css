@@ -1,3 +1,18 @@
+@import url("./assets/MainHeader.css");
+@import url("./assets/Button.css");
+@import url("./assets/Product.css");
+@import url("./assets/Footer.css");
+@import url("./assets/Nav.css");
+
+@font-face {
+  font-family: Tenor;
+  src: "./assets/TenorSans-Regular.ttf";
+}
+
+#root{
+  background-color: #E9CBB1;
+}
+
 .App {
   text-align: center;
 }
@@ -14,18 +29,30 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #E9CBB1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* font-size: calc(30px); */
+  color: #8A745F;
 }
 
-.App-link {
-  color: #61dafb;
+.App-catchy-phrase{
+  color: #f8f9fa;
+  font-style: italic;
+}
+
+.App-catchy-phrase, .App-p{
+  font-size: 2em;
+}
+
+h1{
+  color:#8A745F; 
+  font-family: "Tenor"; 
+  letter-spacing: 12px;
+  font-size: 10em;
 }
 
 @keyframes App-logo-spin {

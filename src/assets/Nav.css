@@ -1,0 +1,26 @@
+.my-nav {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.my-nav ul {
+list-style: none;
+padding: 0.5em;
+margin-left: 2em;
+}
+
+.my-nav li {
+display: inline;
+margin-right: 40px;
+}
+
+.my-nav a {
+text-decoration: none;
+color: #393536;
+font-size: 1.5em;
+}
+
+.my-nav a:hover {
+color: #E9CBB1;
+}
+  

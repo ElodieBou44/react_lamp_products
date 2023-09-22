@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Modern table lamp",
+      "color": "Antique bronze",
+      "availability": true
+    },
+    {
+      "id": 2,
+      "name": "Art deco floor lamp",
+      "color": "Weathered tin",
+      "availability": false
+    },
+    {
+      "id": 4,
+      "name": "Minimalist wall sconce",
+      "color": "Brushed brass",
+      "availability": true
+    },
+    {
+      "id": 5,
+      "name": "Contemporary design ceiling lamp",
+      "color": "Matte black",
+      "availability": false
+    },
+    {
+      "name": "Elegant crystal chandelier",
+      "color": "Champagne gold",
+      "availability": true,
+      "id": 6
+    }
+  ]
+}
